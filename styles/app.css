@@ -1,0 +1,53 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+
+  /* 表頭 */
+  .header {
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+
+  /* 內容 */
+  .content {
+    margin: 0 auto;
+    max-width: 1024px;
+    padding-bottom: 20px;
+
+    /* 卡片內容 */
+    .course {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    /* 卡片 */
+    .course_item {
+      width: 300px;
+      border: 1px solid #000;
+      padding: 10px;
+
+      ul {
+        padding: 0 35px;
+        padding-bottom: 20px;
+      }
+    }
+
+    /* 卡片 title */
+    .course_item h2 {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+
+  /* 表尾 */
+  .footer {
+    position: fixed;
+    bottom: 0;
+    margin: 40px auto 0;
+    padding: 30px 20px;
+    width: 100%;
+    text-align: center;
+    background: #004466;
+    color: #fff;
+  }
+}
