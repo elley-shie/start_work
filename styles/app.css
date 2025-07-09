@@ -49,5 +49,9 @@
     text-align: center;
     background: #004466;
     color: #fff;
+
+    .footer_text {
+      font-size: 18px;
+    }
   }
 }
